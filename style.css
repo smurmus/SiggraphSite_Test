@@ -14,17 +14,17 @@ body{
     padding-right: 10px;
 }
 
-.first{
-    background-color: #000000;
-    opacity: 0.5;
-}
+/*.first{*/
+/*    background-color: #ffffff;*/
+/*    opacity: 0.5;*/
+/*}*/
 
-.first:hover{
-    opacity: 1.0;
-    filter: alpha(opacity=100);
-}
+/*.first:hover{*/
+/*    opacity: 1.0;*/
+/*    filter: alpha(opacity=100);*/
+/*}*/
 
 .logo-text{
     font: "helvetica light";
-    color: #ffffff;
+    color: #000000;
 }
