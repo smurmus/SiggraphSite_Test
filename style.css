@@ -13,3 +13,12 @@ body{
     padding-left: 10px;
     padding-right: 10px;
 }
+
+.row .first{
+    background-color: #0C090A;
+}
+
+.logo-text{
+    font: helvetica;
+    color: #ffffff;
+}
