@@ -185,10 +185,22 @@ li a {
 /*END ARROWS*/
 
 /*custom arrows*/
-.arrow{
-   position: relative;
-   top: 50%;
-   -webkit-transform: translateY(-50%);
-   -ms-transform: translateY(-50%);
-   transform: translateY(-50%);
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
+
+.arrow{
+  @include vertical-align();
+}
+
+/*.arrow{*/
+/*   position: relative;*/
+/*   top: 50%;*/
+/*   -webkit-transform: translateY(-50%);*/
+/*   -ms-transform: translateY(-50%);*/
+/*   transform: translateY(-50%);*/
+/*}*/
