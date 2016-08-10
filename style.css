@@ -1,5 +1,5 @@
 body{
-    background-color: #000000;
+    background-color: #ffffff;
     /*opacity: 0.6;*/
 }
 
@@ -51,7 +51,7 @@ body{
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     /*padding: 14px 16px;*/
     text-decoration: none;
