@@ -1,5 +1,5 @@
 body{
-    background-color: #fffff;
+    background-color: #ffffff;
 }
 
 .sm-icon{
@@ -9,5 +9,6 @@ body{
 }
 
 #banner{
+    background-color: #000000;
     padding-left: 10px;
 }
