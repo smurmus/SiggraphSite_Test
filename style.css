@@ -24,6 +24,11 @@ body{
 /*    filter: alpha(opacity=100);*/
 /*}*/
 
+.align{
+    vertical-align: bottom;
+}
+
+
 .logo-text{
     /*font: "helvetica light";*/
     font-family: 'Helvetica Neue';
