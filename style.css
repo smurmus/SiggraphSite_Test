@@ -183,3 +183,12 @@ li a {
 	transform: translateX(-50%) rotate(-45deg);
 }
 /*END ARROWS*/
+
+/*custom arrows*/
+.arrow{
+   position: relative;
+   top: 50%;
+   -webkit-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+}
