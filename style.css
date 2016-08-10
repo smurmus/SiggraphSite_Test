@@ -15,8 +15,13 @@ body{
 }
 
 .first{
-    background-color: #0C090A;
+    background-color: #000000;
     opacity: 0.5;
+}
+
+.first:hover{
+    opacity: 1.0;
+    filter: alpha(opacity=100);
 }
 
 .logo-text{
