@@ -185,22 +185,23 @@ li a {
 /*END ARROWS*/
 
 /*custom arrows*/
-@mixin vertical-align($position: relative) {
-  position: $position;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.arrow{
-  @include vertical-align();
-}
+/*@mixin vertical-align($position: relative) {*/
+/*  position: $position;*/
+/*  top: 50%;*/
+/*  -webkit-transform: translateY(-50%);*/
+/*  -ms-transform: translateY(-50%);*/
+/*  transform: translateY(-50%);*/
+/*}*/
 
 /*.arrow{*/
-/*   position: relative;*/
-/*   top: 50%;*/
-/*   -webkit-transform: translateY(-50%);*/
-/*   -ms-transform: translateY(-50%);*/
-/*   transform: translateY(-50%);*/
+/*  @include vertical-align();*/
 /*}*/
+
+.arrow{
+   vertical-align: middle;
+   position: relative;
+   top: 50%;
+   -webkit-transform: translateY(-50%);
+   -ms-transform: translateY(-50%);
+   transform: translateY(-50%);
+}
