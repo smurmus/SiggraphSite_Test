@@ -41,3 +41,15 @@ body{
     color: #000000;
     padding-left: 10px;
 }
+
+.page{
+    font-family: 'Helvetica Neue';
+    font-weight: lighter;
+    color: #ffffff;
+}
+
+ul#navigation {
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+}
