@@ -1,5 +1,6 @@
 body{
-    background-color: #ffffff;
+    background-color: #000000;
+    opacity: 0.6;
 }
 
 .sm-icon{
@@ -28,6 +29,9 @@ body{
     vertical-align: bottom;
 }
 
+.c{
+    background-color: #ffffff;
+}
 
 .logo-text{
     /*font: "helvetica light";*/
