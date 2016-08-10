@@ -25,6 +25,8 @@ body{
 /*}*/
 
 .logo-text{
-    font: "helvetica light";
+    /*font: "helvetica light";*/
+    font-family: 'Helvetica Neue';
+    font-weight: light;
     color: #000000;
 }
