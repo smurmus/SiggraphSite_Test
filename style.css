@@ -232,3 +232,32 @@ nav a svg {
    -ms-transform: translateY(-50%);
    transform: translateY(-50%);
 }
+
+/*the pages*/
+.page {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    opacity: 0
+}
+
+.page,
+.sc {
+        position: relative;
+        height: auto
+}
+
+.sc {
+        min-height: 0;
+        padding-left: 60px
+}
+
+.page {
+    display: none
+}
+
+.page,
+.sc-h {
+    left: 0;
+    top: 0
+}
